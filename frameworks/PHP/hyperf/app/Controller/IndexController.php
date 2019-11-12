@@ -15,7 +15,7 @@ namespace App\Controller;
 use App\Model\Fortune;
 use App\Model\World;
 use App\Render;
-use Hyperf\DbConnection\Db;
+use Hyperf\Db\Db;
 use Hyperf\Di\Annotation\Inject;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Hyperf\HttpServer\Annotation\Controller;
